@@ -20,9 +20,9 @@ try:
     while True:
         humi = hts221.readHumi()
         temp = hts221.readTemp()
-        print "Humidity = ", humi
-        print "Temp     = ", temp
-        print
+        print("Humidity = ", humi)
+        print("Temp     = ", temp)
+        print()
 
         time.sleep(1)
 
